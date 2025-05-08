@@ -1,5 +1,3 @@
-Here's a more comprehensive README.md file:
-
 # User Management System API
 
 ![Java](https://img.shields.io/badge/Java-21-blue)
