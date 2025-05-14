@@ -1,0 +1,9 @@
+curl -X POST -H "Content-Type: application/json" -d "{\"title\":\"Clean Code\",\"author\":\"Robert Martin\",\"isbn\":\"9780132350884\",\"publishedDate\":\"2008-08-01\"}" http://localhost:8081/api/books
+
+curl -X PUT -H "Content-Type: application/json" -d "{\"title\":\"Clean Code: A Handbook of Agile Software Craftsmanship\",\"author\":\"Robert C. Martin\",\"isbn\":\"9780132350884\",\"publishedDate\":\"2008-08-01\"}" http://localhost:8081/api/books/1
+
+curl "http://localhost:8081/api/books/search?query=harry"
+
+curl "http://localhost:8081/api/books/search?query=code"
+
+curl -X DELETE http://localhost:8081/api/books/1
